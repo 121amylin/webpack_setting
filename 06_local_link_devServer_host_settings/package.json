@@ -1,5 +1,5 @@
 {
-  "name": "05_Vendor_Entry",
+  "name": "06_local_host_settings",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "watch": "cross-env NODE_ENV=development  webpack --mode development --watch",
     "start": "cross-env NODE_ENV=development webpack --mode development",
     "deploy": "cross-env NODE_ENV=production webpack --mode production",
-    "dev": "cross-env NODE_ENV=development webpack serve --mode development --open"
+    "dev": "cross-env NODE_ENV=development webpack serve --mode development --open --host xxx.xxx.x.xxx"
   },
   "author": "",
   "license": "ISC",

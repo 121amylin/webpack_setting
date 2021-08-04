@@ -37,9 +37,18 @@
 
 ****
 #### 【05_Vendor_Entry】
-[詳細設置](https://webpack.docschina.org/configuration/optimization/)
+- [詳細設置](https://webpack.docschina.org/configuration/optimization/)
 
 
+****
+#### 06_local_link_devServer_host_settings
+- xxx.xxx.x.xxx 需要改成自己網路連線的IP
+```javascript
+"dev": "cross-env NODE_ENV=development webpack serve --mode development --open --host xxx.xxx.x.xxx"
+
+```
+- 手機網路wifi需要和網路連線的IP一樣=>要同一個區域網路的環境
+- 查IP：控制台>所有控制台項目>網路和共用中心>乙太網路>詳細資料>IPv4地址
 
 ****
 #### 【Resolve】
@@ -71,3 +80,4 @@
 - 上傳專案到版控的時候，不用上傳node_modules資料夾。而是將版控資料下載到本機端的時候，再用 npm i 的指令安裝插件
 - [git 新手問題怎樣不用.gitignore忽略某個文件](https://segmentfault.com/q/1010000010399290)
 在你的工程目錄下找到.git文件夾, .git -> info -> exclude, 用編輯器打開exclude文件, 添加要忽略的文件名或者文件夾. 編輯後保存. 接下來你對這幾個忽略文件做的修改, git不會對其進行管理, 而且忽略不會影響到其他人.
+- [Mike__Webpack_Course_Example](https://github.com/MikeOnlineCourse/Webpack_Course_Example)
