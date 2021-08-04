@@ -9,6 +9,14 @@ mini-css-extract-plugin 獨立拆分css檔
 FileLoader 搬移檔案
 PostCSS與autoprefixer CSS瀏覽器相容性
 
+****
+
+#### 【02_scss_bable】
+【功能】
+增加 SassLoader
+增加 webpack dev server
+增加 babel
+
 #### 【其他】
 
 [git 新手問題怎樣不用.gitignore忽略某個文件](https://segmentfault.com/q/1010000010399290)
