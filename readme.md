@@ -34,6 +34,14 @@
 - 增加Html Webpack Plugin template
 
 
+
+****
+#### 【05_Vendor_Entry】
+[詳細設置](https://webpack.docschina.org/configuration/optimization/)
+
+
+
+****
 #### 【Resolve】
 【介紹】
 - 在webpack加上resolve modules的設定，再引入模塊的時候可以省略路徑
@@ -60,5 +68,5 @@
 
 ****
 #### 【其他】
-
+上傳專案到版控的時候，不用上傳node_modules資料夾。而是將版控資料下載到本機端的時候，再用 npm i 的指令安裝插件
 [git 新手問題怎樣不用.gitignore忽略某個文件](https://segmentfault.com/q/1010000010399290)
