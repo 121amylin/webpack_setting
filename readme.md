@@ -41,7 +41,7 @@
 
 
 ****
-#### 06_local_link_devServer_host_settings
+#### 【06_local_link_devServer_host_settings】
 - xxx.xxx.x.xxx 需要改成自己網路連線的IP
 ```javascript
 "dev": "cross-env NODE_ENV=development webpack serve --mode development --open --host xxx.xxx.x.xxx"
