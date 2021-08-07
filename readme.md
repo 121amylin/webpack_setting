@@ -50,13 +50,23 @@
 - 手機網路wifi需要和網路連線的IP一樣=>要同一個區域網路的環境
 - 查IP：控制台>所有控制台項目>網路和共用中心>乙太網路>詳細資料>IPv4地址
 
+
+****
+#### 【07_json-server】
+- 增加 json-server
+- 自訂port
+```javascript
+ json-server --watch db.json --port 3004 
+```
+
+
 ****
 #### 【Resolve】
 【介紹】
 - 在webpack加上resolve modules的設定，再引入模塊的時候可以省略路徑
 - extensions設定則可以省略副檔名
 
-【設置】
+【指令設置】
 ```javascript
   resolve: {
     modules: [
@@ -76,6 +86,7 @@
 
 
 ****
+
 #### 【其他】
 - 上傳專案到版控的時候，不用上傳node_modules資料夾。而是將版控資料下載到本機端的時候，再用 npm i 的指令安裝插件
 - [git 新手問題怎樣不用.gitignore忽略某個文件](https://segmentfault.com/q/1010000010399290)
